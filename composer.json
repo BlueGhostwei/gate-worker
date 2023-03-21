@@ -1,0 +1,34 @@
+{
+    "name": "wei/workerman",
+    "type": "library",
+    "require": {
+        "workerman/workerman": "v4.1.8",
+        "workerman/gateway-worker": "v3.0.27",
+        "workerman/gatewayclient": "v3.0.14",
+        "ext-fileinfo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "wei\\worker\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "huangwei",
+            "email": "13226431320@163.com"
+        }
+    ],
+    "extra": {
+        "think":{
+            "services":[
+                "wei\\worker\\Service"
+            ],
+            "config":{
+                "worker": "src/config/worker.php",
+                "worker_server": "src/config/server.php",
+                "gateway_worker": "src/config/gateway.php"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
