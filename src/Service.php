@@ -17,9 +17,10 @@ class Service extends BaseService
     public function register()
     {
         $this->commands([
-            'worker'         => '\\think\\worker\\command\\Worker',
-            'worker:server'  => '\\think\\worker\\command\\Server',
-            'worker:gateway' => '\\think\\worker\\command\\GatewayWorker',
+            'worker'         => '\\wgate\\worker\\command\\Worker',
+            'worker:server'  => '\\wgate\\worker\\command\\Server',
+            'worker:gateway' => '\\wgate\\worker\\command\\GatewayWorker',
         ]);
     }
 }
+    
