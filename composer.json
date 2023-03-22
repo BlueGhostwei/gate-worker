@@ -1,8 +1,9 @@
 {
     "name": "wgete/workerman",
     "type": "library",
+    "license": "MIT",
     "require": {
-        "workerman/workerman": "v4.1.8",
+        "workerman/workerman": "v4.1.9",
         "workerman/gateway-worker": "v3.0.27",
         "workerman/gatewayclient": "v3.0.14",
         "ext-fileinfo": "*"
