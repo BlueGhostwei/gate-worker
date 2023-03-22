@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "gete\\worker\\": "src"
+            "wgate\\worker\\": "src"
         }
     },
     "authors": [
@@ -22,7 +22,7 @@
     "extra": {
         "think":{
             "services":[
-                "gete\\worker\\Service"
+                "wgate\\worker\\Service"
             ],
             "config":{
                 "worker": "src/config/worker.php",

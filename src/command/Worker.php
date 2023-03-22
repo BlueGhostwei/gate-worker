@@ -9,7 +9,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace wei\worker\command;
+namespace wgate\worker\command;
 
 use think\console\Command;
 use think\console\Input;

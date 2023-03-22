@@ -9,7 +9,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace wei\worker\command;
+namespace wgate\worker\command;
 
 use GatewayWorker\BusinessWorker;
 use GatewayWorker\Gateway;

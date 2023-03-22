@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-namespace wei\worker;
+namespace wgate\worker;
 
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
