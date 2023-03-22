@@ -1,5 +1,5 @@
 {
-    "name": "wei/workerman",
+    "name": "wgete/workerman",
     "type": "library",
     "require": {
         "workerman/workerman": "v4.1.8",
@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "wei\\worker\\": "src"
+            "gete\\worker\\": "src"
         }
     },
     "authors": [
@@ -21,7 +21,7 @@
     "extra": {
         "think":{
             "services":[
-                "wei\\worker\\Service"
+                "gete\\worker\\Service"
             ],
             "config":{
                 "worker": "src/config/worker.php",
